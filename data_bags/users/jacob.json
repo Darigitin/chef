@@ -1,0 +1,11 @@
+{
+    "id"        : "jacob",
+    "comment"   : "Jacob McIntire",
+    "home"      : "/home/jacob",
+    "shell"     : "/bin/bash",
+    "uid"       : "1009",
+    "groups"    : ["jacob", "italc-admin", "italc-supporter", "italc-teacher", "sysadmin"],
+    "ssh_keys"  : [
+        "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQC1E+i1YmmZ/lgDfz8jH/G16HfGCkkfYw+6QGEVF7cHX9clEKsDzDsOA4EwM6Iwm6oYXpPhGcKmkR+OiT6Bc8hqpjyE8mI0wi8UwatgSyEw8p1ZH9virI78AcLC0rphHu4JmKFhvz/EtK+24qfu3IrespUF7YE0Bl6Kxf04nptRhq7VovOhH87/DI28jqyKP5iiPv2dUvXFnAXJEd/Jxj/XwxDyAdsFq716x6vioeG6UTzaR762bbYaCDEHs6wVfDQGBqvYn1u+/wuFYB68itWxkoN332uc9y7vgb40X8XaxP4YYpVoQVzdikMmFKWNGe7PJBaDMPjpg6IaWPajNfIgqg6ZW5tnB7KoC9gIn+FcTfBy7mXfla72SM85RvWeKqAVzkUGC5yMEiqgIvMUNKtrNiYObVrBOCnECVfhopMHb56XpddrL2NhtOMtMH6HIuNjeuZwfWwsWD/5xGjryKVureXqkMcgRMFeQ9CkDPdCTHrOiZQXb9t5ccKx+Woa+g6Ms7YvXMVmhifN53VjEOk/RB6nTnyXHMqrXLqjrWVqt5lnFRM5vCOv8N/GDwyppJTKFX2VExup/7QLp0JKBsRI6OA1gx34RsuWXLJkWcXNIMlvAPqoengRuWaCvatZQak4wlJMLrnmXwhlwtiqHUWuhKINhv5N00FYjHOeR3npPw== root@thor.wtstudents.wtamu.edu"
+        ]
+}

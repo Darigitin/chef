@@ -8,3 +8,4 @@ validation_key           "#{current_dir}/wtcs.pem"
 chef_server_url          "https://sif.wtamu.edu/organizations/wtcs"
 syntax_check_cache_path  "#{ENV['HOME']}/.chef/syntaxcache"
 cookbook_path            ["#{current_dir}/../cookbooks"]
+knife[:editor]="vim"

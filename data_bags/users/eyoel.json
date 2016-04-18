@@ -1,0 +1,10 @@
+{
+    "id"        : "eyoel",
+    "comment"   : "Eyoel Mengesha",
+    "home"      : "/home/eyoel",
+    "shell"     : "/bin/bash",
+    "groups"    : ["eyoel", "italc-admin", "italc-supporter", "italc-teacher", "sysadmin"],
+    "ssh_keys"  : [
+        "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDEzYzEFJ5pZxeAc9gjEH9dsyYOjvAgk2Jz2gcvIwahJybnJi04513SMF+neT/aYXuMfsNHI0GYBKoZdrYysZ5cFnITZzFn/QPWKOfeWyZ4Hn7K5h2f/BGBPg00RgPw8MJ+BX0hIcRLLV7L3nL+cFgJW3olEO+Gj51BFXo3q4RWOXBIU9A6qF/yygShW2qEnxfMUuyqcvUjAVHDY4V+hiv8XTmjEmyBCO728NglLAVeHA5JiCXn/g4zGpz5TgTi4F9dIJDxTBrg+AGzib2nmJ52cmThAvS+sZP5y3jCm7kZHN/wgFFbxBUpFG0nINlPeescf6kykTjBjcHGK+k+2GA5/bqB8suW4wCPn6P0kVTaBOhuqFoSjuEpRqX4k51O5XbbxJdL3suMxR7L4mHEHgzzw/L5uC2zWi9yJt5OITo8XjVK2DuPLEYJL8WDtAromEc0Shyo6CyHoq7HcPLRmqmIu0iAi68fg0P2cfmrcQLq0ODwwXB/yBfK0N+4UJxEWkqawVSWfI6ia5dMzRXzdzTx9Lm4r8HeNpestO/xBIqku55Lcpu9ZNK1/06fUYR0i5YKu8gA5DXRIJ7+JTQbwoQeUAQvZyC4otBNX8ZmSAh96J8cTP2vEQP1CY74+T/Iy+ZERTOH7PRMIFR2CxQLUoe4FCFTCdhecp0OPmXTEk3+MQ== root@thor.wtstudents.wtamu.edu"
+        ]
+}

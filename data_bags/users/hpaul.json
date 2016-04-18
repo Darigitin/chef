@@ -1,0 +1,11 @@
+{
+    "id"        : "hpaul",
+    "comment"   : "H. Paul Haiduk",
+    "home"      : "/home/hpaul",
+    "uid"       : "1002",
+    "shell"     : "/bin/bash",
+    "groups"    : ["hpaul", "italc-admin", "italc-supporter", "italc-teacher", "sysadmin"],
+    "ssh_keys"  : [
+        "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDbeevj4n4hb127zqwitc143gfms1DjpeEQnt9VPBbsSLe/cq/hjjNNv2SB4Hb4mvzVSSeydQhZwAtQI+OaWwqZ4ED9a04ffchOO5aLIAS48QSQ6o/krULFKXC02ctVryvQDwQbZwNz+jVY4FKxvswpvLO6VasfA0R5QuMKEm3BoDW2vl0X/sGGR07SxWkDQfjOuVUAaMW26IrzE2I/mhf17vPt7iAtuLPWM7c8Wgsixai/Y2kK+z9mRf41T4pswxQuwgnVI8xuORvY9dJ5Qc0JSCquxrNyt6pELgYx4VIPS5uJ8DOidJDN+rcZfvZWm0ZRmg3JAcff7FZJqSKrI/JB5w413HxvJaCFfRAYLtT9z0B2SfCoMmLI2tCMxCTuzOnCK0cztDlpdhBYOwIH4oC1kzPjP+NWwytcSfknuUHNuP7tqQHfs0F6J3gzUivt6rln7l8+s8nQpJKs1tSChS1ZtSKjs7vMOPrloV5ff0qcJ7WBpUVBtGfXPLnq+zxJjHzXXBjxLbtVIgAH+ODJJnQU8NIbbFepQ9qNv1ahRw197Vi0wzUghjwcTBPDf0OY0DH+cShlFNKmLj43vOTkVVVenvgLgs4LBrwZP0ssIX3E4piu1aAqO/MJoQuDgawTx0h3EqoH/jKAZGjUzt8cpWEJ6bhzPFFl5hfFtMD497BelQ== root@thor.wtstudents.wtamu.edu"
+        ]
+}
