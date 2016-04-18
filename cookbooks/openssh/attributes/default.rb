@@ -85,13 +85,10 @@ default['openssh']['client']['use_roaming'] = 'no' unless node['platform_family'
 # default['openssh']['server']['address_family'] = 'any'
 # default['openssh']['server']['listen_address'] = [ '0.0.0.0 ::' ]
  default['openssh']['server']['protocol'] = '2'
- default['openssh']['server']['host_key_v1'] = '/etc/ssh/ssh_host_key'
- default['openssh']['server']['host_key_rsa'] = '/etc/ssh/ssh_host_rsa_key'
- default['openssh']['server']['host_key_dsa'] = '/etc/ssh/ssh_host_dsa_key'
+ default['openssh']['server']['host_key'] = [ '/etc/ssh/ssh_host_key', '/etc/ssh/ssh_host_rsa_key', '/etc/ssh/ssh_host_dsa_key', '/etc/ssh/ssh_host_ecdsa_key' [
 if platform_family?('smartos')
   default['openssh']['server']['host_key'] = ['/var/ssh/ssh_host_rsa_key', '/var/ssh/ssh_host_dsa_key']
 end
- default['openssh']['server']['host_key_ecdsa'] = '/etc/ssh/ssh_host_ecdsa_key'
  default['openssh']['server']['key_regeneration_interval'] = '1h'
  default['openssh']['server']['server_key_bits'] = '1024'
  default['openssh']['server']['syslog_facility'] = 'AUTH'
