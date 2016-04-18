@@ -122,6 +122,7 @@ default['openssh']['server']['use_p_a_m'] = 'yes' unless platform_family?('smart
  default['openssh']['server']['x11_display_offset'] = '10'
  default['openssh']['server']['x11_use_localhost'] = 'yes'
  default['openssh']['server']['allow_users'] = [ 'hpaul', 'eyoel', 'root@10.0.6.2', 'jacob' ]
+ default['openssh']['server']['allow_groups'] = [ 'sysadmin' ]
  default['openssh']['server']['print_motd'] = 'yes'
  default['openssh']['server']['print_last_log'] = 'yes'
  default['openssh']['server']['t_c_p_keep_alive'] = 'yes'
