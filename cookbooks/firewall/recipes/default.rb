@@ -62,8 +62,8 @@ firewall_rule 'ipv6_icmp' do
   only_if { node['firewall']['ipv6_enabled'] && node['firewall']['allow_established'] && iptables_firewall }
 end
 
-firewall_rule 'http' do
-    port        80
+firewall_rule 'http/https' do
+    port        [80, 443]
     protocol    :tcp
     position    1
     command     :allow
@@ -76,6 +76,7 @@ firewall_rule 'italc' do
 end
 
 firewall_rule 'samba' do
+    port        [139, 445]
     protocol    :Samba
     command     :allow
 end
