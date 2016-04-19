@@ -74,3 +74,8 @@ firewall_rule 'italc' do
     protocol    :tcp
     command     :allow
 end
+
+firewall_rule 'samba' do
+    protocol    :Samba
+    command     :allow
+end
