@@ -4,6 +4,7 @@
     "home"      : "/home/matt",
     "uid"       : "1001",
     "groups"    : ["matt", "italc-admin", "italc-supporter", "italc-teacher", "sysadmin"],
+    "shell"     : "/bin/bash",
     "ssh_keys"  : [
         "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDI/R3asNh1BAI7hitlYbZNzb+WMEY4AtSjnavbyqlFOjPJdTXOHCULiuS73M6QnHkojBT35e1szy4gtgvkYmjzuBeyFYqBz3sXIC3D/Tm7oFFu23Pw+q9W4mYdhn7nH2hSOXDg3HdWk/XuPsxJ6wfVbGSw+8hYiUYbPAha6N3pqS1fk8YES06t4ekZoJig/RCP9iW++LNGolnSZVofUeOP5x7Qxkv/vO6LeuwBmdCWOhpIXHJnqAEe+OLlkGTNYNJ5c7L3Q50/Ekb5zAPWWAfGdUXPjNhppULTXayehgm5aAlfk143SeX2G2KZo5TwZftes3pgPqy1ggCEybJ8IcWHLcDFvY2BTGHaRMZflxatGX5N7QE4MVK6z5LtnmOngL4uDp/txtNq6fEZncXA+ZmjLK/zRve4AwmJuR1GbU92p2reqrpUAJZhK5q8w6uFghqO1UrX4YSpoXS7PHen9QMN+QWWubkjdP3Hj+un1PLC/ADOKqPNfj4MdeVy838xVen4BMWi5drWE4QQCnw0Cy2vyX4WuyHv75AdprJ6rp5JVwMjXyigP0fTOhK7BU9USsJy/BBZT6hcEvbYZt2k8iA1741injv40mYrcgpTH8rLuIvo0KqhqdqqMQciDr9jKW9aIknky8yiCHXSR8czRDR+ush80o9QBZ0jWZuYZFdWAQ== matt@matt-Razer-Blade-R2"
         ]

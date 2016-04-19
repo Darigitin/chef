@@ -76,7 +76,6 @@ firewall_rule 'italc' do
 end
 
 firewall_rule 'samba' do
-    port        [139, 445]
-    protocol    :Samba
     command     :allow
+    raw         "allow Samba"
 end
