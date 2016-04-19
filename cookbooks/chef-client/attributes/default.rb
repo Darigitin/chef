@@ -36,7 +36,7 @@ end
 
 # log_file has no effect when using runit
 default['chef_client']['log_file']    = 'client.log'
-default['chef_client']['interval']    = '60'
+default['chef_client']['interval']    = '1800'
 default['chef_client']['splay']       = '300'
 default['chef_client']['conf_dir']    = '/etc/chef'
 default['chef_client']['bin']         = '/usr/bin/chef-client'
@@ -80,7 +80,7 @@ default['chef_client']['daemon_options'] = []
 
 # Ohai plugins to be disabled are configured in /etc/chef/client.rb,
 # so they can be set as an array in this attribute.
-default['ohai']['disabled_plugins'] = []
+default['ohai']['disabled_plugins'] = [:Passwd]
 
 # Use logrotate_app definition on supported platforms via config recipe
 # when chef_client['log_file'] is set.
