@@ -1,1 +1,1 @@
-default['firewall']['firewalld']['permanent'] = false
+default['firewall']['firewalld']['permanent'] = true

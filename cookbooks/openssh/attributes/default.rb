@@ -94,7 +94,7 @@ end
  default['openssh']['server']['syslog_facility'] = 'AUTH'
  default['openssh']['server']['log_level'] = 'INFO'
  default['openssh']['server']['login_grace_time'] = '2m'
- default['openssh']['server']['permit_root_login'] = 'yes'
+# default['openssh']['server']['permit_root_login'] = 'yes'
  default['openssh']['server']['strict_modes'] = 'yes'
  default['openssh']['server']['max_auth_tries'] = '5'
 # default['openssh']['server']['max_sessions'] = '10'

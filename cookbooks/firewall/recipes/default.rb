@@ -61,3 +61,16 @@ firewall_rule 'ipv6_icmp' do
   command :allow
   only_if { node['firewall']['ipv6_enabled'] && node['firewall']['allow_established'] && iptables_firewall }
 end
+
+firewall_rule 'http' do
+    port        80
+    protocol    :tcp
+    position    1
+    command     :allow
+end
+
+firewall_rule 'italc' do
+    port        11100
+    protocl     :tcp
+    command     :allow
+end
