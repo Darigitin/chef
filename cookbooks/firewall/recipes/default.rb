@@ -71,6 +71,6 @@ end
 
 firewall_rule 'italc' do
     port        11100
-    protocl     :tcp
+    protocol    :tcp
     command     :allow
 end
