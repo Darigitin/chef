@@ -53,7 +53,7 @@ default['openssh']['client']['host'] = '*'
 # Older versions of RHEL should not receive this directive
 default['openssh']['client']['use_roaming'] = 'no' unless node['platform_family'] == 'rhel' && node['platform_version'].to_i < 7
 # default['openssh']['client']['forward_agent'] = 'no'
- default['openssh']['client']['forward_x11'] = 'no'
+ default['openssh']['client']['forward_x11'] = 'yes'
 # default['openssh']['client']['rhosts_rsa_authentication'] = 'no'
 # default['openssh']['client']['rsa_authentication'] = 'yes'
 # default['openssh']['client']['password_authentication'] = 'yes'
@@ -118,7 +118,7 @@ default['openssh']['server']['use_p_a_m'] = 'yes' unless platform_family?('smart
 # default['openssh']['server']['allow_agent_forwarding'] = 'yes'
 # default['openssh']['server']['allow_tcp_forwarding'] = 'yes'
 # default['openssh']['server']['gateway_ports'] = 'no'
- default['openssh']['server']['x11_forwarding'] = 'no'
+ default['openssh']['server']['x11_forwarding'] = 'yes'
  default['openssh']['server']['x11_display_offset'] = '10'
  default['openssh']['server']['x11_use_localhost'] = 'yes'
 # default['openssh']['server']['allow_users'] = [ 'hpaul', 'eyoel', 'root@10.0.6.2', 'jacob' ]
